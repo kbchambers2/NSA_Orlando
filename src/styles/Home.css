@@ -1,0 +1,14 @@
+.topBox {
+  widows: 100%;
+  height: 600px;
+  background-color: #4b186e;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.chapterName {
+}
+.navBarHome {
+
+}

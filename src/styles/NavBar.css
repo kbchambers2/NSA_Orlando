@@ -1,0 +1,22 @@
+.navMenu {
+  list-style-type: none;
+  display: flex;
+}
+.navItems {
+  padding-right: 15px;
+}
+.nsaTitle {
+  padding-left: 15px;
+
+}
+.navBox {
+  position: fixed;
+  width: 100%;
+  background-color: white;
+}
+.navControl {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  align-items: center;
+}
