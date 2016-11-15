@@ -10,7 +10,6 @@ class NavBar extends Component {
         <div className="nsaTitle"><Link to="/home">NSA Orlando</Link></div>
         <div className="navUL">
         <ul className="navMenu" role="nav">
-          <li className="navItems"><Link to="/about">About</Link></li>
           <li className="navItems"><Link to="/members">Members</Link></li>
           <li className="navItems"><Link to="/ourchapter">Our Chapter</Link></li>
           <li className="navItems"><Link to="/calendar">Calendar</Link></li>

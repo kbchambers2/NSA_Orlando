@@ -3,20 +3,38 @@
   display: flex;
 }
 .navItems {
-  padding-right: 15px;
+  padding-right: 10px;
 }
 .nsaTitle {
-  padding-left: 15px;
-
+  padding-left: 10px;
+}
+.nsaTitle  a {
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+}
+.nsaTitle  a:hover {
+ border-radius: 10px;
+ background-color: #9590A8;
+ color: #EC9F45;
+}
+.navItems a {
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+}
+.navItems a:hover {
+  border-radius: 10px;
+  background-color: #9590A8;
+  color: #EC9F45;
 }
 .navBox {
   position: fixed;
   width: 100%;
-  background-color: white;
+  background-color: rgb(62,20,91);
 }
 .navControl {
   display: flex;
   justify-content: space-between;
-  border: 1px solid black;
   align-items: center;
 }

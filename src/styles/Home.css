@@ -2,13 +2,33 @@
   widows: 100%;
   height: 600px;
   background-color: #4b186e;
-  color: white;
+  color: #e88a1c;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .chapterName {
+  font-size: 80px;
 }
 .navBarHome {
-
+}
+.NSA {
+  font-weight: bolder;
+  font-family: 'Open Sans', sans-serif;
+}
+.imageList {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+ul.imageList {
+  margin: 0;
+}
+.footerImages {
+  background-color: #C5C2CF;
+}
+.membersBox {
+  background-color: rgb(255,255,255,.5);
+  border: 1px solid black;
+  text-align: center;
 }
