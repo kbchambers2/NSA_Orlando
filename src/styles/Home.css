@@ -86,9 +86,10 @@ ul.imageList {
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
-
-
+    background-color: #e88a1c;
   }
-
+.topBox {
+  text-align: center;
+}
 
 }

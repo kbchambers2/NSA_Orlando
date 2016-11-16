@@ -41,7 +41,7 @@ class NavBar extends Component {
               <span></span>
               <ul className="navMenu" role="nav">
                 <li className="navItems">
-                  <Link to="/members"><i className="fa fa-globe" aria-hidden="true"></i>&nbsp;&nbsp;Members</Link>
+                  <Link to="/members"><i className="fa fa-users" aria-hidden="true"></i>&nbsp;&nbsp;Members</Link>
                 </li>
                 <li className="navItems">
                   <Link to="/ourchapter"><i className="fa fa-paper-plane" aria-hidden="true"></i>&nbsp;&nbsp;Our Chapter</Link>
