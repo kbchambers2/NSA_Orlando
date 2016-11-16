@@ -18,14 +18,14 @@ class Home extends Component {
         <div className="footerImages">
           <ul className="imageList">
             <Link to="/members">
-            <li className="homeImages"><img src={require('../img/groupbowling.jpeg')} alt="Members"/>
+            <li className="homeImages"><img src={require('../img/bowling1.png')} alt="Members"/>
               <div className="gallery-text">
-                <h3>Check Out The Team</h3>
+                <h3>Meet The Team</h3>
               </div>
             </li>
           </Link>
           <Link to="/ourchapter">
-            <li className="homeImages"><img src={require('../img/Downtown.jpg')} alt="Our Chapter"/>
+            <li className="homeImages"><img src={require('../img/downtownorlando.png')} alt="Our Chapter"/>
               <div className="gallery-text">
                 <h3>Our Chapter</h3>
               </div>
@@ -39,9 +39,9 @@ class Home extends Component {
             </li>
           </Link>
           <Link to="/connect">
-            <li className="homeImages"><img src={require('../img/connect2.jpg')} alt="Connect"/>
+            <li className="homeImages"><img src={require('../img/connectnew.png')} alt="Connect"/>
               <div className="gallery-text">
-                <h3>We Love Making
+                <h3>We Love Making&nbsp;
                   <i>New Friends</i>
                 </h3>
               </div>
