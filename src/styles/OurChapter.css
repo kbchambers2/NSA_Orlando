@@ -1,16 +1,78 @@
 .chapterTitle {
-  width: 100%;
-  height: 120px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-items: flex-end;
 }
 h1.chapterTitle {
   margin: auto;
+  color: #D37E1A;
+  font-size: 80px;
 }
 
-.chapterMainBox {
+.chapterContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 100%;
-  border: 1px solid black;
+  height: 720px;
+  z-index: 1;
+}
+.chapterContainer::after {
+  content: "";
+  background-image: url(http://i65.tinypic.com/2hcl01d.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*opacity: 0.5;*/
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+.chapterTitleBox {
+  border-radius: 5px;
+  background-color: rgba(255,255,255,0.8);
+  text-align: center;
+  width: 950px;
+  height: auto;
+}
+.chapterVideoContainer {
+  text-align: center;
+  width: 100%;
+  /*height: 650px;*/
+  background-color: black;
+}
+.iframeVideo {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.groupDinner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 650px;
+}
+.groupDinner {
+  content: "";
+  background-image: url(http://i68.tinypic.com/28wexdy.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 5;
+}
+.info {
+  background-color: #F1EBF0;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+p.infoTitle {
+  margin: 0;
 }
